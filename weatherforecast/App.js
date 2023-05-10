@@ -1,7 +1,7 @@
 import { Alert } from 'react-native';
 import * as Location from 'expo-location';
 import Loading from './Loading/Loading';
-import Weather from './Weather/weather'; // исправить на 'Weather/Weather'
+import Weather from './Weather/weather'; 
 import React from 'react';
 import axios from 'axios';
 
