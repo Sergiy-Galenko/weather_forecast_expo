@@ -1,7 +1,3 @@
-
-
-
-
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { View, Text, StatusBar } from 'react-native';
