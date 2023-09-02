@@ -1,0 +1,59 @@
+Arguments: 
+  /Users/sergejgalenko/.nvm/versions/node/v16.18.1/bin/node /Users/sergejgalenko/.nvm/versions/node/v16.18.1/bin/yarn
+
+PATH: 
+  /Users/sergejgalenko/.rvm/gems/ruby-2.7.6/bin:/Users/sergejgalenko/.rvm/gems/ruby-2.7.6@global/bin:/Users/sergejgalenko/.rvm/rubies/ruby-2.7.6/bin:/Users/sergejgalenko/.nvm/versions/node/v16.18.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/sergejgalenko/.rvm/gems/ruby-2.7.6/bin:/Users/sergejgalenko/.rvm/gems/ruby-2.7.6@global/bin:/Users/sergejgalenko/.rvm/rubies/ruby-2.7.6/bin:/Users/sergejgalenko/.nvm/versions/node/v16.18.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/Users/sergejgalenko/.rvm/bin:/Users/sergejgalenko/.rvm/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.18.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/react: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/Users/sergejgalenko/.nvm/versions/node/v16.18.1/lib/node_modules/yarn/lib/cli.js:141517:19)
+      at Object.onceWrapper (node:events:627:28)
+      at ClientRequest.emit (node:events:513:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:839:9)
+      at Object.onceWrapper (node:events:627:28)
+      at TLSSocket.emit (node:events:525:35)
+      at TLSSocket.Socket._onTimeout (node:net:550:8)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+npm manifest: 
+  {
+    "name": "weatherforecast",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "axios": "^1.4.0",
+      "expo": "~48.0.15",
+      "expo-location": "~15.1.1",
+      "expo-status-bar": "~1.4.4",
+      "prop-types": "^15.8.1",
+      "react": "18.2.0",
+      "react-native": "0.71.7",
+      "expo-linear-gradient": "~12.1.2"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

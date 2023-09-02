@@ -1,12 +1,12 @@
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
-  container: { // исправлено: conteiner -> container
+  container: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
   },
-  halfContainer: { // исправлено: helfConteiner -> halfContainer
+  halfContainer: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
@@ -15,19 +15,19 @@ export const styles = StyleSheet.create({
     fontSize: 42,
     color: 'white',
   },
-  title:{
+  title: {
     color: 'white',
     fontSize: 44,
     fontWeight: '300',
-    marginBottom: 10
+    marginBottom: 10,
   },
-  subtitle:{
+  subtitle: {
     color: 'white',
-    fontWeight: "600",
-    fontSize:24
+    fontWeight: '600',
+    fontSize: 24,
   },
-  textConainer:{
+  textContainer: {
     paddingHorizontal: 20,
-    alignItems: 'flex-start'
-  }
+    alignItems: 'flex-start',
+  },
 });
